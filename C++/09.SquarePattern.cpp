@@ -26,7 +26,7 @@ int main()
         cout << endl;
     }
 
-
+    //Print square pattern of ABCD
         for (int i = 0; i <= n; i++)
     {
     char ch = 'A';

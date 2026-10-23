@@ -24,17 +24,18 @@ int main()
 //     }
 //     cout << sum;
 
-    for (int i = 2; i*i<= n; i++)
-    {
-        if (n%i==0){
-            isPrime = false;
-            break;
-        }
-    }
-    if (isPrime==true)
-    {
-        cout << n <<" is a prime number";
-    } else cout << n << " is not a Prime number";
+//Checks if the number is prime or not
+    // for (int i = 2; i*i<= n; i++)
+    // {
+    //     if (n%i==0){
+    //         isPrime = false;
+    //         break;
+    //     }
+    // }
+    // if (isPrime==true)
+    // {
+    //     cout << n <<" is a prime number";
+    // } else cout << n << " is not a Prime number";
     
     
     return 0;

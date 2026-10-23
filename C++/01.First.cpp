@@ -1,8 +1,9 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
-    cout<<"Abdullah\nShaikh";
+    cout << "Abdullah\nShaikh";
     return 0;
 }
