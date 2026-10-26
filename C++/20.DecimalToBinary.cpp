@@ -11,7 +11,7 @@ void DecimalToBinary(int n)
         Binary += (remainder * Pow); // This positions the binary results digit by digit
         Pow *= 10;                   // This increase the power by 1
     }
-    cout << "Binary of " << n << " = " << Binary << endl;
+    cout << "Binary" << " = " << Binary << endl;
 }
 int main()
 {
