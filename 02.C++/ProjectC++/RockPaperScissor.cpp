@@ -1,10 +1,12 @@
 #include <iostream>
+#include <string>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
 int main()
 {
     srand(time(0));
+    string names[4] = {"", "Rock", "Paper", "Scissor"};
 
     // Computer
     int comp[3];
@@ -28,6 +30,12 @@ int main()
         for (int i = 0; i < 3; i++)
         {
             int user = 0;
+            if (round > 1)
+            {
+                cout << endl
+                     << endl
+                     << endl;
+            }
             cout << "You : " << win << "  |  Computer : " << loss << endl;
             while (true)
             {
@@ -40,6 +48,7 @@ int main()
                 // User input
                 cout << "Enter : ";
                 cin >> user;
+                cout << "------------------------------------" << endl;
                 // If user enters anything like characters etc, this will handle the errors
                 if (cin.fail())
                 {
@@ -62,6 +71,9 @@ int main()
                          (user == 2 && comp[i] == 1) ||
                          (user == 3 && comp[i] == 2))
                 {
+                    cout << "You chose      : " << names[user] << endl;
+                    cout << "Computer chose : " << names[comp[i]] << endl;
+                    cout << "------------------------------------" << endl;
                     cout << "You win" << endl;
                     cout << "You : +1 Point" << endl;
                     win++;
@@ -73,6 +85,9 @@ int main()
                          (comp[i] == 2 && user == 1) ||
                          (comp[i] == 3 && user == 2))
                 {
+                    cout << "You chose      : " << names[user] << endl;
+                    cout << "Computer chose : " << names[comp[i]] << endl;
+                    cout << "------------------------------------" << endl;
                     cout << "You Lost" << endl;
                     cout << "Computer : +1 point" << endl;
                     loss++;
@@ -81,14 +96,23 @@ int main()
                 }
                 // checks if it's a draw
                 else if (user == comp[i])
+                {
+                    cout << "You chose      : " << names[user] << endl;
+                    cout << "Computer chose : " << names[comp[i]] << endl;
+                    cout << "------------------------------------" << endl;
                     cout << "It's a draw" << endl;
-
+                }
                 break;
             }
             // Increments the round value
             round++;
             cout << "------------------------------------------------" << endl;
         }
+        cout << endl
+             << endl
+             << endl;
+        cout << "------------------------------------------------" << endl;
+
         // Result
         cout << "Result : ";
         cout << "You : " << win << "  |  Computer : " << loss << endl;
@@ -107,6 +131,7 @@ int main()
             (cout << "It's a DRAW" << endl);
         cout << "------------------------------------------------" << endl;
 
+        cout << endl;
         // Checks if user wan't to play again
         char choice;
         cout << "Play again? (y/n) : ";
