@@ -104,7 +104,7 @@ int main()
         }
         // Returns if it's a draw
         else
-            (cout << "It's a DRAW");
+            (cout << "It's a DRAW" << endl);
         cout << "------------------------------------------------" << endl;
 
         // Checks if user wan't to play again
@@ -116,7 +116,7 @@ int main()
         {
             break;
         }
-        //Clears the terminal/screen in windows only
+        // Clears the terminal/screen in windows only
         system("cls");
     }
     return 0;
