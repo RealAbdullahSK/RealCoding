@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/action.php">
+
+        <h4>Registration</h4>
+        <hr>
+        <!--  Type   : type of text : text , password , radio buttons 
+         placeholder : text that disappears after typing -->
+
+        <h5>Enter Name and Password</h5>
+        <!-- Text | Password -->
+        <input type="text" placeholder="Usermame">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <br><br>
+
+        <hr>
+
+        <h5>Select your Class</h5>
+        <!-- Radio button -->
+        <!-- Label tag | Makes the whole text kind of seprate and interactable -->
+        <label for="101">
+            <!-- Giving them same name forces them to select only a single option -->
+            <input type="radio" value="Class XI" name="class" id="101">Class XI
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="Class XII" name="class" id="102">Class XII
+        </label>
+        <br><br>
+
+        <hr>
+
+        <h5>Select your favourite subject</h5>
+        <!-- Checkbox -->
+        <label for="physics">
+            <input type="checkbox" name="physics" id="101">Physics
+        </label>
+        <br>
+        <label for="chemistry">
+            <input type="checkbox" name="chemistry" id="101">Chemistry
+        </label>
+        <br>
+        <label for="math">
+            <input type="checkbox" name="math" id="101">Mathematics
+        </label>
+        <br>
+        <label for="IT">
+            <input type="checkbox" name="IT" id="101">Informational Technology
+        </label>
+        <br><br>
+        <select name="city">
+            <option value="Mumbai"></option>
+            <option value="Delhi"></option>
+            <option value="Pune"></option>
+        </select>
+        <br><br>
+
+        <hr>
+
+        <textarea name="Feedback" id="101" placeholder="Please give Feedback" rows="6" cols="40">Feedback</textarea>
+        <br><br>
+
+        <hr>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
