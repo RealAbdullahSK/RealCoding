@@ -1,0 +1,42 @@
+/* 
+Also apart from left and right
+it is also known as start and end
+start=left | end=right 
+ */
+
+
+#Head1 {
+    text-align: center;
+}
+
+#Head2 {
+    text-align: left;
+}
+
+#Head3 {
+    text-align: right;
+}
+
+#Para1 {
+    text-align: right;
+}
+
+
+/* Text decoration */
+
+#Head1 {
+    text-decoration: green wavy underline;
+}
+
+#Head2 {
+    text-decoration: overline;
+}
+
+#Head3 {
+    text-decoration: red line-through;
+}
+
+/* It can also be use to remove the line from links too */
+a {
+    text-decoration: none;
+}

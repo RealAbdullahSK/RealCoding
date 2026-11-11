@@ -1,0 +1,37 @@
+/* Universal selector | Selects every elements */
+* {
+    color: bisque;
+}
+/* CSS goes from UP to DOWN
+so the lower part has MORE priority than the upper part */
+
+
+/* we can also give elements id 
+and then use the ID to refer it in css */
+
+body {
+    background-color:rgb(0, 60, 75);
+}
+
+/* #HeadOne {
+    color: aqua;
+}
+
+#HeadTwo {
+    color: aquamarine;
+} */
+
+#Para {
+    color: cadetblue;
+}
+
+#Button {
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+/* we can also use class to refer elements */
+
+.Header {
+    color: cornflowerblue;
+}

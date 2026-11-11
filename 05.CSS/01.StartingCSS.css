@@ -1,0 +1,17 @@
+/* It changes colours of each elements
+ their backgrounds border etc */
+h1 {
+    /* RGB  */
+    color :rgb(205, 154, 92);
+}
+p {
+    /* Hex | hexadecimal */
+    color: #cd996c
+}
+button {
+    color:burlywood;
+    background-color:blanchedalmond;
+}
+body {
+    background-color: bisque;
+}
