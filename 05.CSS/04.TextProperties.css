@@ -40,3 +40,52 @@ start=left | end=right
 a {
     text-decoration: none;
 }
+
+#div1 {
+    text-align: center;
+}
+
+#p1 {
+    font-weight: 100;
+}
+
+#p2 {
+    font-weight: 200;
+}
+
+#p3 {
+    font-weight: 300;
+}
+
+#p4 {
+    font-weight: 400;
+}
+
+#p5 {
+    font-weight: 500;
+}
+
+#p6 {
+    font-weight: 600;
+}
+
+#p7 {
+    font-weight: 700;
+}
+
+#p8 {
+    font-weight: 800;
+}
+
+#p9 {
+    font-weight: 900;
+}
+
+#Para2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* we can also change Font of pre tag */
+#pre1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
